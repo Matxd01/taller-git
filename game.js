@@ -5,7 +5,7 @@ let numeroSecreto = Math.floor(Math.random() * 50) + 1;
 let intentos = 0;
 
 console.log("🎯 Bienvenido al juego Frío o Caliente");
-console.log("Adivina el número entre 1 y 100");
+console.log("Adivina el número entre 1 y 50, o si no pierdes la materia");
 
 function adivinarNumero(guess) {
     intentos++;

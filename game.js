@@ -20,11 +20,11 @@ function adivinarNumero(guess) {
     if (guess === numeroSecreto) {
         console.log(`✅ ¡Correcto! El número era ${numeroSecreto}. Lo lograste en ${intentos} intentos.`);
     } else if (diferencia <= 5) {
-        console.log("🔥 Muy caliente");
+        console.log("Me pones cachonda");
     } else if (diferencia <= 15) {
         console.log("🌡️ Caliente");
     } else {
-        console.log("❄️ Frío");
+        console.log("Palmer");
     }
 }
 

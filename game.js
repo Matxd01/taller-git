@@ -29,4 +29,4 @@ function adivinarNumero(guess) {
 }
 
 // Ejemplo de uso en consola:
-adivinarNumero(2); // Cambia el número para probar
+// adivinarNumero(); // Cambia el número para probar

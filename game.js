@@ -22,11 +22,11 @@ function adivinarNumero(guess) {
     } else if (diferencia <= 5) {
         console.log("Me pones cachonda");
     } else if (diferencia <= 15) {
-        console.log("🌡️ Caliente");
+        console.log("calienteeeeeeeeeeee");
     } else {
         console.log("Palmer");
     }
 }
 
 // Ejemplo de uso en consola:
-adivinarNumero(50); // Cambia el número para probar
+adivinarNumero(10); // Cambia el número para probar

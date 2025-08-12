@@ -1,7 +1,7 @@
 // Juego Frío o Caliente en JavaScript
 
 // Genera un número aleatorio entre 1 y 100
-let numeroSecreto = Math.floor(Math.random() * 100) + 1;
+let numeroSecreto = Math.floor(Math.random() * 50) + 1;
 let intentos = 0;
 
 console.log("🎯 Bienvenido al juego Frío o Caliente");

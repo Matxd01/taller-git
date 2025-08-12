@@ -1,7 +1,7 @@
 // Juego Frío o Caliente en JavaScript
 
 // Genera un número aleatorio entre 1 y 100
-let numeroSecreto = Math.floor(Math.random() * 50) + 1;
+let numeroSecreto = Math.floor(Math.random() * 10) + 1;
 let intentos = 0;
 
 console.log("🎯 Bienvenido al juego Frío o Caliente");
@@ -29,4 +29,4 @@ function adivinarNumero(guess) {
 }
 
 // Ejemplo de uso en consola:
-adivinarNumero(10); // Cambia el número para probar
+adivinarNumero(2); // Cambia el número para probar
